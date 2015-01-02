@@ -1,9 +1,9 @@
-Ruby webapp protected by the rubycas-client
+Ruby webapp protected by the rubycas-client (https://github.com/rubycas/rubycas-client)
 ==
 
 ![English](https://www.casinthecloud.com/img/other/flag_en.png)
 
-Demo using the rubycas-client (v2.3.10.rc1) to protect a Rails web application.
+Demo using the rubycas-client (v2.3.9) to protect a Rails web application (`gem install rails`, `gem install rubycas-client`).
 
 Use **rails server** to start the webapp on **http://localhost:3000**. The url 'protected/index' is protected and should trigger a CAS authentication.
 
@@ -22,7 +22,7 @@ and the following service:
 
 ![Français](https://www.casinthecloud.com/img/other/flag_fr.png)
 
-Démo utilisant le client rubycas-client (v2.3.10.rc1) pour protéger une application web Rails.
+Démo utilisant le client rubycas-client (v2.3.9) pour protéger une application web Rails (`gem install rails`, `gem install rubycas-client`).
 
 Utilisez **rails server** pour lancer le site web sur **http://localhost:3000**. L'url 'protected/index' est protégée et déclenche une authentification CAS.
 
