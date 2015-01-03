@@ -11,4 +11,5 @@ require 'casclient/frameworks/rails/filter'
 CASClient::Frameworks::Rails::Filter.configure(
   :cas_base_url => "https://freeuse1.casinthecloud.com/leleujgithub/",
   :validate_url  => "https://freeuse1.casinthecloud.com/leleujgithub/p3/proxyValidate",
+  :enable_single_sign_out => true
 )
