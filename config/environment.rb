@@ -7,9 +7,9 @@ Rails.application.initialize!
 require 'casclient'
 require 'casclient/frameworks/rails/filter'
 
-# change with your own CAS in the cloud server
+# change with your own CAS server
 CASClient::Frameworks::Rails::Filter.configure(
-  :cas_base_url => "https://freeuse1.casinthecloud.com/leleujgithub/",
-  :validate_url  => "https://freeuse1.casinthecloud.com/leleujgithub/p3/proxyValidate",
+  :cas_base_url => "http://localhost:8888/cas/",
+  :validate_url  => "http://localhost:8888/cas/p3/proxyValidate",
   :enable_single_sign_out => true
 )
